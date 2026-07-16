@@ -22,7 +22,7 @@ CSV_FILE = str(DATA_DIR / "air.csv")
 # 若 MySQL 不可用，系统自动降级到 SQLite
 DB_CONFIG = {
     "host": "localhost",
-    "port": 3307,
+    "port": 3306,
     "user": "root",
     "password": "root",
     "database": "airline_analytics",
